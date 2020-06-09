@@ -39,7 +39,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(749, 25);
+            this.button1.Location = new System.Drawing.Point(744, 28);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(25, 23);
             this.button1.TabIndex = 0;
@@ -67,6 +67,7 @@
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ModalFormAddToCart";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ModalFormAddToCart";
             this.ResumeLayout(false);
 

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp", "ToDoApp\ToDoApp.csproj", "{31D165DA-9509-4DB2-8475-9B959EC42C24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp", "ToDoApp\PizzaApp.csproj", "{31D165DA-9509-4DB2-8475-9B959EC42C24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{2B45DF45-DE44-4813-9624-F2ACB3C51346}"
+	ProjectSection(SolutionItems) = preProject
+		ToDoApp\Images\Screen1.PNG = ToDoApp\Images\Screen1.PNG
+		ToDoApp\Images\Screen2.PNG = ToDoApp\Images\Screen2.PNG
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

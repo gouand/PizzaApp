@@ -60,6 +60,11 @@ namespace ToDoApp
             }
         }
 
-
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SlidePanel.Height = button3.Height;
+            SlidePanel.Top = button3.Top;
+            ordersUserControl1.BringToFront();
+        }
     }
 }

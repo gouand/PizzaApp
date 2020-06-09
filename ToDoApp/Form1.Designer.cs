@@ -44,6 +44,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.homeUserControl1 = new ToDoApp.HomeUserControl();
             this.menuUserControl1 = new ToDoApp.MenuUserControl();
+            this.ordersUserControl1 = new PizzaApp.OrdersUserControl();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -102,6 +103,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "Заказы";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -237,6 +239,13 @@
             this.menuUserControl1.Size = new System.Drawing.Size(738, 350);
             this.menuUserControl1.TabIndex = 7;
             // 
+            // ordersUserControl1
+            // 
+            this.ordersUserControl1.Location = new System.Drawing.Point(202, 134);
+            this.ordersUserControl1.Name = "ordersUserControl1";
+            this.ordersUserControl1.Size = new System.Drawing.Size(738, 350);
+            this.ordersUserControl1.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -244,6 +253,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1000, 500);
+            this.Controls.Add(this.ordersUserControl1);
             this.Controls.Add(this.menuUserControl1);
             this.Controls.Add(this.homeUserControl1);
             this.Controls.Add(this.button6);
@@ -283,6 +293,7 @@
         private System.Windows.Forms.Button button6;
         private HomeUserControl homeUserControl1;
         private MenuUserControl menuUserControl1;
+        private PizzaApp.OrdersUserControl ordersUserControl1;
     }
 }
 
